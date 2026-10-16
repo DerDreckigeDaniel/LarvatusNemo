@@ -2,7 +2,7 @@
 
 **Autor:** Daniel Redl
 
-Status: alle Features sind geplant (Konzeptphase).
+Status: alle Features sind geplant, Raum für eventuelle Anpassungen bleibt bestehen (Konzeptphase).
 Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = vertieft das Spielerlebnis · **[Optional]** = falls Zeit bleibt
 
 ## Grundsystem
@@ -31,12 +31,12 @@ Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = v
 17. **[Erweitert]** Zwei Analysephasen: erst Aussagen abgleichen, in den späten Tagen neue Dialoge, die Persönlichkeit und Verhalten in den Vordergrund stellen
 18. **[Erweitert]** Der Nachahmer lügt nie: Alle seine Aussagen sind wahr, aber mehrdeutig formuliert
 19. **[Erweitert]** Spiegeln: Der Nachahmer übernimmt Formulierungen anderer, auch von bereits Verstorbenen
-20. **[Erweitert]** Herbert beschuldigt reihum verschiedene Personen, darunter berechtigt, aber unauffällig auch Elias
+20. **[Erweitert]** Pablo beschuldigt reihum verschiedene Personen, darunter berechtigt, aber unauffällig auch Johan
 
 ## Tag-/Nacht-Zyklus
 21. **[Kern]** Tageszyklus mit begrenzten Aktionen pro Tag (jede Aktion kostet Zeit)
 22. **[Kern]** Abendentscheidung ab Tag 2: Der Spieler kann freiwillig eine Person töten oder niemanden
-23. **[Kern]** Nachtphase: Der Nachahmer tötet nach fester Reihenfolge (Jonas → Mara → Herbert → Viktor → Tobias → Nora)
+23. **[Kern]** Nachtphase: Der Nachahmer tötet nach fester Reihenfolge (Marvin → Daria → Pablo → Vincent → Tobias → Nora)
 24. **[Kern]** Hat der Spieler die nächste Zielperson selbst getötet, stirbt in dieser Nacht niemand
 25. **[Kern]** Morgenbericht: Wer ist gestorben, wo wurde die Leiche gefunden
 
@@ -49,15 +49,15 @@ Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = v
 31. **[Optional]** Zufällig gefundene Hinweise: Beim Durchsuchen eines Raums gibt es eine Chance auf einen Zusatzfund
 32. **[Optional]** Verschlossener Notschacht, der sich erst mit einem gefundenen Gegenstand öffnet
 
-## Vertrauen & Viktors Hinweis
+## Vertrauen & Vincents Hinweis
 33. **[Erweitert]** Vertrauenszähler pro Person: Wiederholte Gespräche schalten neue Dialoge und Hintergrundgeschichten frei
-34. **[Erweitert]** Viktor öffnet sich erst nach mehreren Gesprächen und zeigt seinen Intellekt und seine Vergangenheit
-35. **[Erweitert]** Am Abend vor seiner Todesnacht hinterlässt Viktor einen Poker-Hinweis (Spielkarte mit Notiz); je höher das Vertrauen, desto deutlicher der Hinweis
-36. **[Erweitert]** Wird Viktor vorher getötet, geht sein Hinweis verloren
+34. **[Erweitert]** Vincent öffnet sich erst nach mehreren Gesprächen und zeigt seinen Intellekt und seine Vergangenheit
+35. **[Erweitert]** Am Abend vor seiner Todesnacht hinterlässt Vincent einen Hinweis (Spielkarte mit Notiz); je höher das Vertrauen, desto deutlicher der Hinweis
+36. **[Erweitert]** Wird Vincent vorher getötet, geht sein Hinweis verloren
 
 ## Enden
 37. **[Kern]** Gutes Ende: Nachahmer getötet, kein Unschuldiger getötet
-38. **[Kern]** Graues Ende: Nachahmer getötet, aber zuvor Unschuldige getötet
+38. **[Kern]** Neutrales Ende: Nachahmer getötet, aber zuvor Unschuldige getötet
 39. **[Kern]** Schlechtes Ende: Nur noch der Spieler, der Nachahmer und ein Mensch leben; der Nachahmer lässt die Maske fallen
 40. **[Erweitert]** Schlussbilanz: Übersicht, wen der Spieler wann getötet hat und was die Wahrheit über diese Person war
 
