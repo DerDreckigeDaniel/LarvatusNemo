@@ -140,7 +140,7 @@ Am Ende soll der Spieler nicht nur fragen „Wer war es?“, sondern auch: *Nach
 
 ## Inspiration
 
-*Papers, Please*, *No, I'm Not a Human* (Prüfen und Abgleichen unter Druck), *Werwolf* (soziale Deduktion), *Monster* (die charismatische, menschlich wirkende Personifizierung des Bösens) sowie die Psychopathie-Forschung.
+*Papers, Please* & *No, I'm Not a Human* (Prüfen und Abgleichen unter Druck), *Werwolf* (soziale Deduktion), *Monster* (die charismatische, menschlich wirkende Personifizierung des Bösens) sowie die Psychopathie-Forschung.
 
 ## Geplante technische Umsetzung
 
