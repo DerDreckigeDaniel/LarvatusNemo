@@ -4,7 +4,7 @@
 
 > Der Titel ist lateinisch und lässt sich doppelt lesen: „der maskierte Niemand“ und „niemand ist maskiert“. Das Erste beschreibt das Wesen, das Zweite ist der Irrtum, dem die Gruppe erliegt.
 
-**Autor:** Daniel Redl
+**Autor:** Daniel Redl - wi26b094
 **Kontext:** Persönliches Semesterprojekt, Wirtschaftsinformatik, FH Technikum Wien
 **Stand:** Konzeptphase (16 Oktober 2026)
 
