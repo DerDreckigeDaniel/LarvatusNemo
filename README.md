@@ -145,8 +145,10 @@ Am Ende soll der Spieler nicht nur fragen „Wer war es?“, sondern auch: *Nach
 ## Geplante technische Umsetzung
 
 - Java-Konsolenanwendung, strukturierte Programmierung
-- Records bzw. einfache Klassen, z. B. für `Person`, `Raum`, `Hinweis`
-- Daten in Arrays mit fester Größe
-- Eingabe über `Scanner`
+- Steuerung über **nummerierte Menüs** (`Scanner` + `switch`), keine freien Textbefehle
+- Records für unveränderliche Daten, z. B. `Raum` (Name, Beschreibung, Ausgänge) und `Person` (Name, Beschreibung, Ausgangswerte)
+- Veränderlicher Spielzustand (lebt, Vertrauen, Verdacht, Position) in Arrays fester Größe, je ein Eintrag pro Person
+- Bunkerprotokoll als zweidimensionales Array (Tag × Person → Raum)
+- Spieltexte getrennt von der Spiellogik
 - **Keine** Abstraktion, Vererbung, Collections oder sonstigen höheren Java-Features (Vorgabe der Lehrveranstaltung)
 - Entwicklung mit Unterstützung von generativer KI, dokumentiert im Prompt-Tagebuch
