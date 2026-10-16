@@ -3,12 +3,12 @@
 **Autor:** Daniel Redl
 
 Status: alle Features sind geplant, Raum für eventuelle Anpassungen bleibt bestehen (Konzeptphase).
-Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = vertieft das Spielerlebnis · **[Optional]** = falls Zeit bleibt
+Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = vertieft das Spielerlebnis · **[Optional]** = falls Zeit bleibt · ✅ = umgesetzt
 
 ## Grundsystem
-1. **[Kern]** Startbildschirm mit Titel, Intro-Text (der Alarm) und Hauptmenü (Spiel starten, Anleitung, Beenden)
-2. **[Kern]** Befehlseingabe über die Konsole (z. B. `gehe funkraum`, `sprich nora`, `untersuche mara`, `hilfe`)
-3. **[Kern]** Hilfe-Befehl mit einer Liste aller verfügbaren Befehle
+1. **[Kern]** Startbildschirm mit Titel, Intro-Text (der weltweite Alarm) und Hauptmenü (Spiel starten, Anleitung, Beenden)
+2. **[Kern]** Steuerung über nummerierte Menüs: Der Spieler wählt jede Aktion per Zahl (z. B. `1) Raum wechseln`, `2) Mit jemandem sprechen`, `3) Jemanden untersuchen`, `4) Raum durchsuchen`, `5) Notizbuch`)
+3. **[Kern]** Anleitung im Hauptmenü, die Spielziel, Tagesablauf und Menüs erklärt
 4. **[Kern]** Bewegung zwischen den 10 Räumen des Bunkers
 5. **[Kern]** Raumbeschreibung beim Betreten, mit den Personen, die gerade anwesend sind
 
@@ -26,7 +26,7 @@ Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = v
 12. **[Kern]** Gespräche mit Personen über nummerierte Dialogoptionen
 13. **[Kern]** Erneute Untersuchung und Vergleich mit den Ausgangswerten (der Nachahmer bleibt „zu perfekt“)
 14. **[Kern]** Tägliches Bunkerprotokoll (wer war wann wo) zum Abgleich mit den Aussagen
-15. **[Kern]** Notizbuch: Der Spieler kann zu jeder Person Verdachtsnotizen speichern und anzeigen lassen
+15. **[Kern]** Notizbuch: Gefundene Hinweise und wichtige Aussagen werden automatisch pro Person gesammelt und können jederzeit angezeigt werden
 16. **[Erweitert]** Verdachtsskala pro Person (0–10), die der Spieler selbst setzt
 17. **[Erweitert]** Zwei Analysephasen: erst Aussagen abgleichen, in den späten Tagen neue Dialoge, die Persönlichkeit und Verhalten in den Vordergrund stellen
 18. **[Erweitert]** Der Nachahmer lügt nie: Alle seine Aussagen sind wahr, aber mehrdeutig formuliert
@@ -62,5 +62,19 @@ Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = v
 40. **[Erweitert]** Schlussbilanz: Übersicht, wen der Spieler wann getötet hat und was die Wahrheit über diese Person war
 
 ## Optionales
-41. **[Optional]** Textausgabe mit Verzögerung (Schreibmaschinen-Effekt) für mehr Atmosphäre
-42. **[Optional]** Zufällige Auswahl des Nachahmers aus mehreren Kandidaten für mehr Wiederspielwert
+41. **[Optional]** Textausgabe mit Verzögerung (Schreibmaschinen-Effekt) für mehr Atmosphäre – benötigt `Thread.sleep`, nur nach Rücksprache mit der LV
+42. **[Optional]** Zufällige Auswahl des Nachahmers aus mehreren Kandidaten für mehr Wiederspielwert – erfordert, dass alle Tells und Dialoge pro Kandidat geschrieben werden
+
+## Umsetzungsreihenfolge
+
+Damit jederzeit eine lauffähige Version existiert, wird in dieser Reihenfolge gebaut:
+
+| Stufe | Features | Ergebnis |
+|---|---|---|
+| 1 | 1, 2, 3, 4, 5 | Hauptmenü und Bewegung durch den Bunker |
+| 2 | 21, 22, 23, 24, 25 | Spielbarer Tag-/Nacht-Zyklus mit Tötungsregel |
+| 3 | 37, 38, 39 | Alle drei Enden erreichbar → **erste komplett spielbare Version** |
+| 4 | 6, 7, 8, 12, 13 | Einlass, Gespräche, Untersuchungen |
+| 5 | 9, 10, 14, 15, 26 – 30 | Hinweise, Protokoll, Notizbuch, Steigerung |
+| 6 | 33 – 36, 16 – 20 | Vertrauen, Vincents Hinweis, psychologische Feinheiten |
+| 7 | 11, 31, 32, 40 – 42 | Feinschliff und Optionales |
