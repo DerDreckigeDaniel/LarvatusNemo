@@ -192,6 +192,48 @@ Außerdem wies Claude darauf hin, dass das größte Risiko die **Textmenge** ist
 
 ---
 
+## Eintrag 11 – Woche 8: Erster Code (10.11.2026)
+
+**Ziel:** Mit der Umsetzung beginnen. Für Woche 8 braucht es lauffähigen Code mit mindestens einem fertigen Feature.
+
+**Prompt:** Screenshot der Woche-8-Aufgabe geschickt (Code, manual.md, ✅ in features.md, Debugging-Screenshot).
+
+**Ergebnis:** Claude prüfte das Repo (noch kein Code) und fragte nach, wie ich vorgehen möchte: schrittweise mit Erklärung, selbst schreiben mit Hilfe oder alles auf einmal. Ich wählte **schrittweise mit Erklärung**.
+
+Daraufhin entstanden `Main.java` und `Texte.java` mit **Feature 1** (Titel und Hauptmenü) und **Feature 3** (Anleitung):
+- `Texte.java` enthält alle Spieltexte als Konstanten, getrennt von der Logik (wie in agents.md vorgegeben)
+- `Main.java`: Menüschleife mit `while` und `switch`, Menüpunkte als Konstanten
+- Hilfsmethode `leseZahl`: prüft mit `hasNextInt()`, ob eine Zahl eingegeben wurde. Damit stürzt das Programm bei Eingaben wie `abc` nicht ab.
+
+Claude erklärte jede Methode und schlug eine Stelle für den Debugging-Breakpoint vor (in `leseZahl`). Außerdem wies Claude darauf hin, dass der Intro-Text erfundene Details enthält und dass die Zeile „Der Nachahmer lügt nie“ in der Anleitung den Twist verrät. Beides soll ich selbst entscheiden.
+
+**Meine Entscheidung:** Code übernommen.
+
+**Prompt-Technik:**
+- **Aufgabenstellung als Kontext:** Die Anforderungen der LV direkt mitgegeben
+- **Vorgehen gewählt:** Schrittweise mit Erklärung, damit ich den Code verstehe und selbst debuggen kann (passend zu agents.md: „Erklären statt nur liefern“)
+
+---
+
+## Eintrag 12 – Abgabe Woche 8 vervollständigt (23.11.2026)
+
+**Prompt:**
+> Ich hab die Abgabe verpennt, hilfe.
+
+**Ergebnis:** Claude prüfte das Repo und stellte fest, dass der Code von Eintrag 11 noch fehlte. Für die Abgabe wurden ergänzt:
+- `Main.java` und `Texte.java` (unverändert aus Eintrag 11, kompiliert)
+- `manual.md`: Starten in IntelliJ und im Terminal, Steuerung über Zahlen, Hauptmenü, Beispiel
+- `features.md`: Feature 1 und 3 mit ✅ markiert
+- dieser Eintrag im Prompt-Tagebuch
+
+Den Debugging-Screenshot habe ich selbst in IntelliJ gemacht.
+
+**Meine Entscheidung:** Übernommen und verspätet abgegeben.
+
+**Lessons learned:** Abgabetermine gleich in den Kalender eintragen. Der Code war seit dem 10.11. fertig, nur das Hochladen fehlte.
+
+---
+
 ## Übersicht: Wie die Projektdateien entstanden sind
 
 | Datei | Entstehung |
@@ -201,6 +243,8 @@ Außerdem wies Claude darauf hin, dass das größte Risiko die **Textmenge** ist
 | `memory.md` | Auf meinen Wunsch von Claude erstellt und laufend aktualisiert (Einträge 6, 10) |
 | `agents.md` | Von Claude erstellt (Eintrag 7) und mit den LV-Unterlagen präzisiert (Einträge 9, 10) |
 | `prompt_diary.md` | Mit Claude aus dem Chatverlauf zusammengefasst, von mir geprüft |
+| `Main.java`, `Texte.java` | Von Claude schrittweise mit Erklärung geschrieben (Eintrag 11) |
+| `manual.md` | Von Claude für die Abgabe in Woche 8 erstellt (Eintrag 12) |
 
 ## Übersicht: Wer welche Idee eingebracht hat
 
