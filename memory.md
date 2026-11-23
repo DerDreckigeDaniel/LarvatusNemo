@@ -11,7 +11,7 @@
 - **Autor:** Daniel Redl
 - **Kontext:** Persönliches Semesterprojekt, Wirtschaftsinformatik, FH Technikum Wien (LV Strukturierte Programmierung)
 - **Ziel der LV:** Wissen praktisch anwenden und generative KI beim Programmieren einsetzen und dokumentieren
-- **Status:** Konzeptphase abgeschlossen. Noch kein Code.
+- **Status:** Umsetzung begonnen. Fertig: Feature 1 (Hauptmenü) und 3 (Anleitung) in `Main.java` und `Texte.java`. Nächster Schritt: Features 2, 4, 5 (Räume und Bewegung).
 
 ## 2. Technische Vorgaben (verbindlich)
 > „The project should use structured programming in Java including records or simple classes. No abstractions, inheritance, Collections or other higher level Java features may be used.“
@@ -24,8 +24,8 @@
 ## 3. Abgaben
 | Termin | Inhalt | Status |
 |---|---|---|
-| Woche 4 (16.10.2026, 23:00) | Git-Link (`redl_git_project.txt`) mit readme.md, features.md, agents.md, Prompt-Tagebuch | in Arbeit |
-| Woche 8 | Lauffähiger Code, `manual.md`, mind. 1 Feature mit ✅, Screenshot eines Breakpoints | offen |
+| Woche 4 (16.10.2026, 23:00) | Git-Link (`redl_git_project.txt`) mit readme.md, features.md, agents.md, Prompt-Tagebuch | abgegeben |
+| Woche 8 (fällig 22.11.2026) | Lauffähiger Code, `manual.md`, mind. 1 Feature mit ✅, Screenshot eines Breakpoints, erweitertes Prompt-Tagebuch | verspätet am 23.11. |
 | Woche 12 | Mind. 5 Features fertig mit ✅, Code kompiliert, 3-Minuten-Video | offen |
 | Selbststudium | Präsentation „Lessons learned“ (Projekt, Erkenntnisse mit Beispielen, was man anders machen würde) | offen |
 

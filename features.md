@@ -2,13 +2,13 @@
 
 **Autor:** Daniel Redl
 
-Status: alle Features sind geplant, Raum für eventuelle Anpassungen bleibt bestehen (Konzeptphase).
+Status: Umsetzung begonnen. Mit ✅ markierte Features sind fertig, alle anderen geplant. Raum für Anpassungen bleibt bestehen.
 Legende: **[Kern]** = notwendig für ein spielbares Spiel · **[Erweitert]** = vertieft das Spielerlebnis · **[Optional]** = falls Zeit bleibt · ✅ = umgesetzt
 
 ## Grundsystem
-1. **[Kern]** Startbildschirm mit Titel, Intro-Text (der weltweite Alarm) und Hauptmenü (Spiel starten, Anleitung, Beenden)
+1. ✅ **[Kern]** Startbildschirm mit Titel, Intro-Text (der weltweite Alarm) und Hauptmenü (Spiel starten, Anleitung, Beenden)
 2. **[Kern]** Steuerung über nummerierte Menüs: Der Spieler wählt jede Aktion per Zahl (z. B. `1) Raum wechseln`, `2) Mit jemandem sprechen`, `3) Jemanden untersuchen`, `4) Raum durchsuchen`, `5) Notizbuch`)
-3. **[Kern]** Anleitung im Hauptmenü, die Spielziel, Tagesablauf und Menüs erklärt
+3. ✅ **[Kern]** Anleitung im Hauptmenü, die Spielziel, Tagesablauf und Menüs erklärt
 4. **[Kern]** Bewegung zwischen den 10 Räumen des Bunkers
 5. **[Kern]** Raumbeschreibung beim Betreten, mit den Personen, die gerade anwesend sind
 
